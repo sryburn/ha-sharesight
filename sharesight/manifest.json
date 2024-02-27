@@ -1,0 +1,10 @@
+{
+  "domain": "sharesight",
+  "name": "Sharesight",
+  "version": "1.0",
+  "documentation": "https://github.com/sryburn/ha-sharesight",
+  "dependencies": [],
+  "codeowners": ["@sryburn"],
+  "requirements": ["requests_oauthlib==1.3.0", "homeassistant"],
+  "config_flow": true
+}
