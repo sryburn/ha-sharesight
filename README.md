@@ -12,7 +12,7 @@ In future this component could be extended to support other use-cases, for examp
 1. Enter your Sharesight API credentials (`client_id` and `client_secret`).
 
 ## Usage example
-```
+```yaml
 service: sharesight.send_price
 data:
   investment_id: 123456
@@ -20,7 +20,7 @@ data:
   last_traded_on: 2024-02-01
 ```  
 ## Automation example
-```
+```yaml
 alias: send IBIT price to Sharesight
 description: ""
 trigger:
