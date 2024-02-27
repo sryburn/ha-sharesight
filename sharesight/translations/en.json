@@ -1,0 +1,36 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Sharesight is already configured. Only one configuration is allowed."
+    },
+    "step": {
+      "user": {
+        "title": "Connect to Sharesight",
+        "data": {
+          "client_id": "Client ID",
+          "client_secret": "Client Secret"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Sharesight API, check your credentials.",
+      "invalid_auth": "Invalid authentication, check your credentials.",
+      "unknown": "An unexpected error occurred."
+    },
+    "success": {
+      "title": "Setup complete",
+      "description": "You are now connected to Sharesight."
+    }
+  },
+  "options":{
+    "step": {
+      "init": {
+        "title": "Edit Sharesight Configuration",
+        "data": {
+          "client_id": "Client ID",
+          "client_secret": "Client Secret"
+        }
+      }
+    }
+  }
+}

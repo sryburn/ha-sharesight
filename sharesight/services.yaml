@@ -1,0 +1,12 @@
+send_price:
+  description: Send custom investment price to Sharesight.
+  fields:
+    investment_id:
+      description: The ID of the investment to which the price will be sent.
+      example: 123456  
+    last_traded_price:
+      description: The last traded price of the investment.
+      example: "100.0"
+    last_traded_on:
+      description: The date the last price was traded on.
+      example: "2024-02-27"
